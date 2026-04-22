@@ -25,7 +25,7 @@
 
 
 .hero {
-    padding: 1rem 0.5rem;
+    padding: 4rem 0.5rem;
 }
 
 .top-paragraph{
@@ -48,7 +48,7 @@
 }
 
 .work{
-    padding: 1rem 0;
+    padding: 4rem 0;
     border-top: 1px solid var(--border);
 }
 
@@ -89,13 +89,3 @@
     font-size: 0.9rem;
 }
 
-.about{
-    padding: 1rem 0;
-    border-top: 1px solid var(--border);
-}
-
-.about p{
-    max-width: 60ch;
-    margin-bottom: 1rem;
-    color:#333;
-}
