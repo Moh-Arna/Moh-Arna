@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: 'Inter';
-  src: url('../assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf') format('woff2');
+  src: url('../assets/fonts/Inter\,Playfair_Display\,SN_Pro/Inter-VariableFont_opsz,wght') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: 'Inter';
-  src: url('../assets/fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf') format('woff2');
+  src: url('../assets/fonts/Inter\,Playfair_Display\,SN_Pro/Inter-Italic-VariableFont_opsz,wght') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -38,10 +38,7 @@
 }
 
 body{
-    font-family: 'Inter', sans-serif;
-    background-color: var(--bg);
-    color: var(--text);
-    line-height: 1.6;
+    font-family: '';
 }
 
 h1, h2, h3{
