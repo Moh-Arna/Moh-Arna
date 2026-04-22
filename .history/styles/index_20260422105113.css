@@ -116,7 +116,7 @@
 .socials{
     display: flex;
     gap: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: rem;
 }
 
 .socials a{
@@ -131,26 +131,4 @@
 .copyright{
     color: var(--muted);
     font-size: 0.85rem;
-}
-
-@media (min-width: 768px) {
-  .hero {
-    padding: 6rem 0 7rem;
-  }
-
-  .hero h1 {
-    font-size: 3.75rem;
-  }
-
-  .section-title {
-    font-size: 2.5rem;
-  }
-
-  .work-title {
-    font-size: 1.75rem;
-  }
-
-  .email {
-    font-size: 3.5rem;
-  }
 }
