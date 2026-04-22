@@ -1,0 +1,10 @@
+:root{
+    --bg:#fafafa;
+    --text: #111;
+    --muted: #666;
+    --border: #e5e5e5;
+}
+
+h1{
+    font-family: '';
+}

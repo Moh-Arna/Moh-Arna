@@ -21,14 +21,6 @@
     --border: #e5e5e5;
 }
 
-h1, h2, h3{
-    font-family: 'PlayFair Display', serif;
-    font-weight: 400;
-    line-height: 1.2;
-}
-
-.container{
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 1.5rem;
+h1{
+    font-family: '';
 }
