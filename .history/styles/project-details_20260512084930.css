@@ -1,0 +1,175 @@
+/* Back link */
+.back-link {
+  display: inline-block;
+  color: var(--muted);
+  font-size: 0.9rem;
+  padding: 2rem 0 1rem;
+}
+
+.back-link:hover {
+  color: var(--text);
+}
+
+/* Project intro */
+.project-intro {
+  padding: 2rem 0 4rem;
+}
+
+.project-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.5rem;
+}
+
+.project-intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.tagline {
+  color: var(--muted);
+  max-width: 50ch;
+}
+
+/* Cover */
+.cover {
+  padding-bottom: 4rem;
+}
+
+.cover img {
+  width: 100%;
+  border: 1px solid var(--border);
+}
+
+/* Info grid */
+.info {
+  padding: 2rem 0 4rem;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.info-label {
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+}
+
+/* Content sections (Overview, Process) */
+.content {
+  padding: 4rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.content p {
+  max-width: 60ch;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Gallery */
+.gallery {
+  padding: 4rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.gallery figure {
+  margin-bottom: 2rem;
+}
+
+.gallery img {
+  width: 100%;
+  border: 1px solid var(--border);
+  margin-bottom: 0.75rem;
+}
+
+.gallery figcaption {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* External links */
+.links {
+  padding: 4rem 0;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+}
+
+.links .container {
+  display: flex;
+  gap: 2rem;
+}
+
+.external-link {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+}
+
+.external-link:hover {
+  font-style: italic;
+}
+
+/* Next project */
+.next-project {
+  padding: 4rem 0;
+}
+
+.next-link {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.next-link:hover {
+  font-style: italic;
+}
+
+/* Tablet / Desktop */
+@media (min-width: 768px) {
+  .project-intro {
+    padding: 4rem 0 5rem;
+  }
+
+  .project-intro h1 {
+    font-size: 3.75rem;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  .info-grid {
+    flex-direction: row;
+    gap: 4rem;
+  }
+
+  .info-grid > div {
+    flex: 1;
+  }
+
+  .external-link {
+    font-size: 1.75rem;
+  }
+
+  .next-link {
+    font-size: 3.5rem;
+  }
+}
+
