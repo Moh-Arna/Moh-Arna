@@ -1,0 +1,156 @@
+.header{
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav a{
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+.nav a:hover{
+    color: var(--text);
+}
+
+
+.hero {
+    padding: 1rem 0.5rem;
+}
+
+.top-paragraph{
+    font-size: 0.85rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1.5rem;
+}
+
+.hero h1{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    max-width: 18ch;
+}
+
+.bottom-paragraph{
+    color: #333;
+    max-width: 50ch;
+}
+
+.work{
+    padding: 1rem 0;
+    border-top: 1px solid var(--border);
+}
+
+.section-title{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.work-list li{
+    border-bottom: 1px solid var(--border);
+}
+
+.work-item{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.25rem 0;
+    transition: padding 0.2s;
+}
+
+.work-item:hover{
+    padding-left: 0.5rem;
+}
+
+.work-number{
+    color: var(--muted);
+    font-size: 0.85rem;
+}
+
+.work-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    flex: 1;
+}
+
+.work-year{
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+.about{
+    padding: 1rem 0;
+    border-top: 1px solid var(--border);
+}
+
+.about p{
+    max-width: 60ch;
+    margin-bottom: 1rem;
+    color:#333;
+}
+
+.footer{
+    padding: 1rem 0 2;
+    border-top: 1px solid var(--border);
+}
+
+.email{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    display:inline-block;
+    margin-bottom: 2rem;
+    word-break: break-word;
+}
+
+.socials{
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.socials a{
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+.socials a:hover{
+    color: var(--text);
+}
+
+.copyright{
+    color: var(--muted);
+    font-size: 0.85rem;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 6rem 0 7rem;
+  }
+
+  .hero h1 {
+    font-size: 3.75rem;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  .work-title {
+    font-size: 1.75rem;
+  }
+
+  .email {
+    font-size: 3.5rem;
+  }
+}
